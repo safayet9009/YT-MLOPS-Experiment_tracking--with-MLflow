@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Shafayet 777/Desktop/vikas das-mlops/Day-6-MLFlow/YT-MLOPS-Experiment_tracking--with-MLflow/mlruns/1/models/m-3c529d43a83949c2ad69ed2e63cb0c57/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-3c529d43a83949c2ad69ed2e63cb0c57
+model_size_bytes: 13779
+model_uuid: m-3c529d43a83949c2ad69ed2e63cb0c57
+prompts: null
+run_id: 817a7d6ab0874034a056445150d4b9c9
+utc_time_created: '2026-02-10 05:15:07.127814'
